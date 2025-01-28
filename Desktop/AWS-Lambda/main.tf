@@ -73,6 +73,6 @@ output "terraform_aws_role_output"{
   value = aws_iam_role.lambda_role.arn
 }
 
-output "terraform_aws_role_output"{
+output "terraform_logging_arn_output"{
   value = aws_iam_policy.iam_policy_for_lambda.arn
 }
